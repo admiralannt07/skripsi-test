@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asisten Skripsi Sat-Set | Dari Ide Jadi Proposal</title>
+    
+    <!-- Impor Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Impor Font Montserrat dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-[#E0F7FA] to-[#FFF3E0] text-[#212121] antialiased">
+
+    <!-- Wrapper untuk Landing Page -->
+    <div id="landing-page">
+        <!-- ... Konten Landing Page yang sudah ada ... -->
+        <header class="absolute top-0 left-0 w-full p-6">
+            <div class="container mx-auto">
+                <h2 class="text-xl font-bold text-gray-700">Asisten Skripsi</h2>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="min-h-screen flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-[#212121] leading-tight mb-4">
+                        Dari Bingung Topik Jadi Kerangka Proposal.
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+                        Manfaatkan kekuatan AI untuk memetakan langkah awal skripsi Anda. Dapatkan ide judul, rumusan masalah, dan kerangka Bab 1 hanya dalam beberapa klik.
+                    </p>
+                    <button id="cta-hero" class="bg-[#673AB7] text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-[#5e35b1] transform hover:scale-105 transition-all duration-300 ease-in-out">
+                        Mulai Sekarang (Gratis) →
+                    </button>
+                </div>
+            </section>
+            <section id="problem" class="py-20 px-4 sm:px-6 lg:px-8">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Merasa Familiar dengan Hal Ini?</h2>
+                    <p class="text-lg text-gray-700 mb-12 max-w-2xl mx-auto">Anda tidak sendirian. Jutaan mahasiswa merasakan kebuntuan yang sama di tahap awal.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="bg-white/60 backdrop-blur-sm p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#673AB7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 16.382V5.618a1 1 0 00-.553-.894L15 2m-6 5l6 3m0 0l6-3m-6 3v10" /></svg></div>
+                            <h3 class="font-bold text-lg mb-2">Bingung Mulai Dari Mana?</h3>
+                            <p class="text-gray-600 text-sm">Terlalu banyak ide atau justru tidak ada sama sekali. Topik yang pas terasa mustahil ditemukan.</p>
+                        </div>
+                        <div class="bg-white/60 backdrop-blur-sm p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#673AB7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div>
+                            <h3 class="font-bold text-lg mb-2">Judul Sering Ditolak Dosen?</h3>
+                            <p class="text-gray-600 text-sm">Judul yang diajukan dianggap kurang fokus, tidak relevan, atau sudah terlalu umum.</p>
+                        </div>
+                        <div class="bg-white/60 backdrop-blur-sm p-6 rounded-xl shadow-md text-center">
+                           <div class="flex justify-center items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#673AB7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg></div>
+                            <h3 class="font-bold text-lg mb-2">Stuck Merangkai Latar Belakang?</h3>
+                            <p class="text-gray-600 text-sm">Sulit menghubungkan fenomena, data, dan urgensi masalah menjadi argumen yang kuat.</p>
+                        </div>
+                        <div class="bg-white/60 backdrop-blur-sm p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#673AB7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg></div>
+                            <h3 class="font-bold text-lg mb-2">Takut Hasilnya Tidak Terstruktur?</h3>
+                            <p class="text-gray-600 text-sm">Khawatir kerangka berpikir tidak logis dan alur dari Bab 1 ke Bab selanjutnya tidak nyambung.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="solution" class="py-20 px-4 sm:px-6 lg:px-8 bg-white/50">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Bukan Tongkat Sihir, Tapi Peta Awal yang Cerdas.</h2>
+                    <p class="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">Asisten Skripsi Sat-Set memecah kebuntuan Anda menjadi tiga langkah praktis untuk menghasilkan draf awal yang solid.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-8 rounded-xl shadow-lg text-left transform hover:-translate-y-2 transition-transform duration-300">
+                            <div class="flex items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-[#673AB7] mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg><h3 class="font-bold text-xl">1. Ideator Judul</h3></div>
+                            <p class="text-gray-600">Cukup masukkan jurusan dan topik minat Anda, AI akan menyajikan 5-10 alternatif judul skripsi yang relevan dan spesifik sebagai titik awal.</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-xl shadow-lg text-left transform hover:-translate-y-2 transition-transform duration-300">
+                            <div class="flex items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-[#673AB7] mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><h3 class="font-bold text-xl">2. Perumus Masalah</h3></div>
+                            <p class="text-gray-600">Pilih judul yang paling Anda suka, dan biarkan AI membantu merumuskan 3-5 poin rumusan masalah yang tajam dan fokus.</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-xl shadow-lg text-left transform hover:-translate-y-2 transition-transform duration-300">
+                            <div class="flex items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-[#673AB7] mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg><h3 class="font-bold text-xl">3. Generator Kerangka</h3></div>
+                           <p class="text-gray-600">Dari rumusan masalah, dapatkan draf kerangka Bab 1 (Latar Belakang, Rumusan Masalah, Tujuan, Manfaat) yang terstruktur dan siap dikembangkan.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="disclaimer" class="py-20 px-4 sm:px-6 lg:px-8">
+                <div class="container mx-auto max-w-3xl">
+                    <div class="bg-yellow-100/60 border-l-4 border-yellow-500 text-yellow-800 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center">
+                            <div class="py-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-600 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div>
+                            <div>
+                                <h2 class="text-2xl font-bold mb-2">Penting: Ini Alat Bantu, Bukan Joki.</h2>
+                                <p class="text-yellow-900">Hasil yang diberikan oleh Asisten Skripsi adalah draf awal yang dihasilkan oleh AI. Ini adalah titik awal yang kuat, bukan produk jadi. Anda <b>wajib</b> memverifikasi, menyempurnakan, dan mengembangkannya lebih lanjut sesuai kaidah ilmiah dan arahan dosen pembimbing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="final-cta" class="py-20 px-4 sm:px-6 lg:px-8 text-center relative overflow-hidden" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbGﻨzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMS41IiBmaWxsPSJyZ2JhKDEwMywgNTgsIDE4MywgMC4wOCkiLz48L3N2Zz4=');">
+                 <div class="container mx-auto relative z-10">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Siap Mengubah Kebuntuan Jadi Kemajuan?</h2>
+                    <p class="text-lg text-gray-700 mb-8 max-w-xl mx-auto">Hanya butuh beberapa menit untuk mendapatkan draf pertama Anda. Mari kita mulai.</p>
+                    <button id="cta-final" class="bg-[#673AB7] text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-[#5e35b1] transform hover:scale-105 transition-all duration-300 ease-in-out text-xl">
+                        Coba Asisten Skripsi Sekarang
+                    </button>
+                 </div>
+            </section>
+        </main>
+        <footer class="text-center p-6 text-gray-600">
+            <p>&copy; 2025 Asisten Skripsi Sat-Set. Dibuat untuk membantu, bukan menggantikan.</p>
+        </footer>
+    </div>
+
+    <!-- ====================================================== -->
+    <!-- APLIKASI WIZARD - KONTEN UTAMA PRODUK -->
+    <!-- ====================================================== -->
+    <div id="app-wizard" class="hidden min-h-screen flex flex-col items-center justify-center p-4">
+        <div class="w-full max-w-4xl bg-white/80 backdrop-blur-lg rounded-2xl shadow-2xl p-4 sm:p-8 space-y-6 sm:space-y-8">
+            
+            <!-- Header Wizard -->
+            <header class="flex flex-col sm:flex-row justify-between sm:items-center gap-2 pb-4 border-b">
+                <h1 class="text-xl sm:text-2xl font-bold text-gray-800 text-center sm:text-left">Asisten Skripsi Sat-Set</h1>
+                <button id="back-to-landing" class="text-sm text-gray-600 hover:text-[#673AB7] transition-colors flex-shrink-0">
+                    &larr; Kembali ke Beranda
+                </button>
+            </header>
+
+            <!-- Langkah 1: Ideator Judul (Aktif secara default) -->
+            <section id="step-1">
+                <div class="flex items-start gap-4 mb-4">
+                    <span class="flex-shrink-0 bg-[#673AB7] text-white rounded-full h-8 w-8 flex items-center justify-center font-bold">1</span>
+                    <div>
+                         <h2 class="text-xl font-bold">Temukan Ide Judul Skripsi</h2>
+                         <p class="text-gray-600 text-sm">Masukkan program studi dan topik spesifik yang Anda minati.</p>
+                    </div>
+                </div>
+                <div class="space-y-4 sm:pl-12">
+                    <div>
+                        <label for="jurusan-input" class="block text-sm font-medium text-gray-700 mb-1">Program Studi / Jurusan</label>
+                        <input type="text" id="jurusan-input" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#673AB7] focus:border-transparent transition-shadow" placeholder="Contoh: Teknik Informatika">
+                    </div>
+                    <div>
+                        <label for="minat-input" class="block text-sm font-medium text-gray-700 mb-1">Topik Minat Spesifik</label>
+                        <input type="text" id="minat-input" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#673AB7] focus:border-transparent transition-shadow" placeholder="Contoh: Machine Learning untuk analisis sentimen">
+                    </div>
+                    <button id="generate-judul-btn" class="w-full bg-[#673AB7] text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-[#5e35b1] transition-transform duration-300 ease-in-out flex items-center justify-center space-x-2 disabled:opacity-50">
+                        <span>✨</span>
+                        <span>Generate Ide Judul</span>
+                    </button>
+                </div>
+                <!-- Kontainer untuk output Langkah 1 -->
+                <div id="judul-output-container" class="mt-6 sm:pl-12"></div>
+            </section>
+
+            <!-- Garis Pemisah Antar Langkah -->
+            <hr class="border-gray-200">
+
+            <!-- Langkah 2: Perumus Masalah (Non-aktif secara default) -->
+            <section id="step-2" class="step-disabled">
+                <div class="flex items-start gap-4 mb-4">
+                    <span id="step-2-indicator" class="flex-shrink-0 bg-gray-400 text-white rounded-full h-8 w-8 flex items-center justify-center font-bold">2</span>
+                    <div>
+                        <h2 class="text-xl font-bold">Kembangkan Rumusan Masalah</h2>
+                        <p class="text-gray-600 text-sm">Pilih satu judul terbaik untuk dikembangkan menjadi rumusan masalah.</p>
+                    </div>
+                </div>
+                <div class="space-y-4 sm:pl-12">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Judul Pilihan Anda</label>
+                        <p id="judul-pilihan-display" class="w-full p-3 bg-gray-100 border border-gray-300 rounded-lg text-gray-500"><i>Menunggu hasil dari Langkah 1...</i></p>
+                    </div>
+                    <button id="generate-rumusan-btn" class="w-full bg-[#673AB7] text-white font-bold py-3 px-6 rounded-lg shadow-md transition-transform duration-300 ease-in-out flex items-center justify-center space-x-2 disabled:opacity-50" disabled>
+                        <span>✨</span>
+                        <span>Generate Rumusan Masalah</span>
+                    </button>
+                </div>
+                 <!-- Kontainer untuk output Langkah 2 -->
+                <div id="rumusan-output-container" class="mt-6 sm:pl-12"></div>
+            </section>
+            
+            <!-- Garis Pemisah Antar Langkah -->
+            <hr class="border-gray-200">
+
+            <!-- Langkah 3: Generator Kerangka Bab 1 (Non-aktif secara default) -->
+            <section id="step-3" class="step-disabled">
+                <div class="flex items-start gap-4 mb-4">
+                    <span id="step-3-indicator" class="flex-shrink-0 bg-gray-400 text-white rounded-full h-8 w-8 flex items-center justify-center font-bold">3</span>
+                    <div>
+                        <h2 class="text-xl font-bold">Buat Kerangka Proposal (Bab 1)</h2>
+                        <p class="text-gray-600 text-sm">Dapatkan draf awal yang terstruktur untuk proposal Anda.</p>
+                    </div>
+                </div>
+                <div class="space-y-4 sm:pl-12">
+                    <button id="generate-kerangka-btn" class="w-full bg-[#673AB7] text-white font-bold py-3 px-6 rounded-lg shadow-md transition-transform duration-300 ease-in-out flex items-center justify-center space-x-2 disabled:opacity-50" disabled>
+                       <span>✨</span>
+                       <span>Generate Kerangka Bab 1</span>
+                    </button>
+                </div>
+                 <!-- Kontainer untuk output Langkah 3 -->
+                <div id="kerangka-output-container" class="mt-6 sm:pl-12"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
